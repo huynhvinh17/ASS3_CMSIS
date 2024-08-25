@@ -7,19 +7,22 @@ C_SRCS += \
 ../Sources/DRIVER/DRIVER_GPIO.c \
 ../Sources/DRIVER/DRIVER_NVIC.c \
 ../Sources/DRIVER/DRIVER_PORT.c \
-../Sources/DRIVER/DRIVER_SIM.c 
+../Sources/DRIVER/DRIVER_SIM.c \
+../Sources/DRIVER/DRIVER_Software_timer.c 
 
 OBJS += \
 ./Sources/DRIVER/DRIVER_GPIO.o \
 ./Sources/DRIVER/DRIVER_NVIC.o \
 ./Sources/DRIVER/DRIVER_PORT.o \
-./Sources/DRIVER/DRIVER_SIM.o 
+./Sources/DRIVER/DRIVER_SIM.o \
+./Sources/DRIVER/DRIVER_Software_timer.o 
 
 C_DEPS += \
 ./Sources/DRIVER/DRIVER_GPIO.d \
 ./Sources/DRIVER/DRIVER_NVIC.d \
 ./Sources/DRIVER/DRIVER_PORT.d \
-./Sources/DRIVER/DRIVER_SIM.d 
+./Sources/DRIVER/DRIVER_SIM.d \
+./Sources/DRIVER/DRIVER_Software_timer.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

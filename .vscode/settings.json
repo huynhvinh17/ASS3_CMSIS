@@ -59,6 +59,22 @@
   "files.associations": {
     "mkl46z4.h": "c",
     "hal_sim.h": "c",
-    "hal_gpio.h": "c"
-  }
+    "hal_gpio.h": "c",
+    "driver_sim.h": "c",
+    "driver_port.h": "c",
+    "driver_gpio.h": "c",
+    "driver_nvic.h": "c",
+    "hal_port.h": "c",
+    "app.h": "c",
+    "stddef.h": "c",
+    "hal_software_timer.h": "c",
+    "driver_software_timer.h": "c",
+    "__stddef_null.h": "c",
+    "__stddef_wchar_t.h": "c",
+    "__stddef_nullptr_t.h": "c",
+    "stdbool.h": "c",
+    "hal_systick.h": "c",
+    "driver_systick.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }

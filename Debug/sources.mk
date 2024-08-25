@@ -27,5 +27,6 @@ SUBDIRS := \
 Sources \
 Sources/HAL \
 Sources/DRIVER \
+Sources/App \
 Project_Settings/Startup_Code \
 

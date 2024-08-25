@@ -10,6 +10,7 @@ RM := rm -rf
 -include sources.mk
 -include Sources/HAL/subdir.mk
 -include Sources/DRIVER/subdir.mk
+-include Sources/App/subdir.mk
 -include Sources/subdir.mk
 -include Project_Settings/Startup_Code/subdir.mk
 -include subdir.mk
